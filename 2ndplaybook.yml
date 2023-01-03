@@ -4,6 +4,6 @@
   become: yes
   tasks:
   - name: latest Apache version installed 
-    apt-get:
+    apt:
       name: httpd
       state: latest
