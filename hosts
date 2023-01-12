@@ -1,2 +1,17 @@
+[webservers]
 172.31.33.81
+172.31.38.184
+
+[applicationservers]
+172.31.33.86
+172.31.38.18
+
+[dbservers]
+172.31.33.68
+172.31.38.16
+
+[ubuntuserver]
+172.31.33.81
+
+[redhatservers]
 172.31.38.184
