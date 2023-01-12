@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: webservers
   become: yes
   tasks:
   - name: i want to install jeva on ubuntu nodes
