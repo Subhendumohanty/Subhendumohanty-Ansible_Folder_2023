@@ -5,26 +5,26 @@
   tasks: 
   - name: i want to install webserver on only ansible ubuntu node
     apt:
-     name: apache2
+     name: "{{webpackforubuntu}}"
      state: present
     when: ansible_os_family =="Debian"
 
 
   - name: i want to start webserver on only ansible ubuntu node
     service: 
-      name: apache2
+      name: "{{webpackforubuntu}}"
       state: started
     when: ansible_os_family =="Debian"
 
 
   - name: i want to install webserver on only ansible Redhat node
     yum: 
-      name: httpd
+      name: "{{webpackforredhat}}"
       state: present
     when: ansible_os_family =="RedHat"
 
   - name: i want to start webserver on only ansible Redhat node
     service: 
-      name: httpd
+      name: "{{webpackforredhat}}"
       state: started
     when: ansible_os_family =="RedHat"

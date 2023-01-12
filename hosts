@@ -15,3 +15,7 @@
 
 [redhatservers]
 172.31.38.184
+
+[webservers:vars]
+webpackforubuntu= apache222222
+webpackforredhat= httpd
