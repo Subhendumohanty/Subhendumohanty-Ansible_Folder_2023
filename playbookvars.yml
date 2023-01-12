@@ -5,7 +5,7 @@
     myvar1: git
     myvar2: tree
     myvars3: wget
-  tsks: 
+  tasks: 
   - name: install tree
     apt:
       name: "{{myvar1}}"
