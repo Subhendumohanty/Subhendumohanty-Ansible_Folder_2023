@@ -17,5 +17,5 @@
 172.31.38.184
 
 [webservers:vars]
-webpackforubuntu= apache222222
+webpackforubuntu= apache2
 webpackforredhat= httpd
