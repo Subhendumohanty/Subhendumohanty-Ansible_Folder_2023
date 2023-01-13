@@ -6,6 +6,6 @@
     command: hostname -f
     register: result
 
-  name: i want to desplay my first task result
-  debug:
-    msg: "{{result}}"
+  - name: i want to desplay my first task result
+    debug:
+      msg: "{{result}}"
