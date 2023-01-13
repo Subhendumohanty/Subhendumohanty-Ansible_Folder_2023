@@ -2,7 +2,7 @@
 - hosts: 172.31.33.81
   become: yes
   tasks:
-  - name: install git,tree,wget
+  - name: install git,tree, wget
     apt:
       name: "{{ item }}"
       state: present
