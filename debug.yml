@@ -1,0 +1,7 @@
+---
+- hosts:
+  become:
+  tasks:
+  - name: i want to excute linux command directly by playbook
+    command: hostname -f
+    
