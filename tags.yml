@@ -18,4 +18,4 @@
     apt: 
       name: wget
       state: pressent 
-      tags: wget 
+    tags: wget 
