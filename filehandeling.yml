@@ -8,7 +8,7 @@
        name: apache2 
        state: present 
  
-   - name: i want copy myindex file into ansible node side 
+   - name: i want copy index file into ansible node side 
      template: 
        src: index.j2
        dest: /var/www/html/index.html
