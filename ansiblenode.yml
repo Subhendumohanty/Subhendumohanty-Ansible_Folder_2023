@@ -1,0 +1,17 @@
+--- 
+- hosts: 
+  becomes: yes
+  tasks:
+  - name: create ansible nodes
+    ec2:
+       key_name: mypemkey2023
+       instance_type: t2.micro
+       image: ami-0f97eea664eadbf1d
+       wait: yes
+       group: default
+       count: 4
+       region: ap-south-1
+       vpc_subnet_id:
+       assign_public_ip: yes
+       instance_tags: 
+             name: ansiblenode
