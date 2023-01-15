@@ -1,6 +1,6 @@
 --- 
-- hosts: 
-  becomes: yes
+- hosts: localhosts
+  become: yes
   tasks:
   - name: create ansible nodes
     ec2:
