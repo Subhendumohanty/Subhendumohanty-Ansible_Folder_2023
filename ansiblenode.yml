@@ -8,10 +8,10 @@
        instance_type: t2.micro
        image: ami-0f97eea664eadbf1d
        wait: yes
-       group: default
+       group: launch-wizard-7
        count: 4
        region: ap-south-1
-       vpc_subnet_id:
+       vpc_subnet_id: subnet-0c83736d8c0f26cc7
        assign_public_ip: yes
        instance_tags: 
              name: ansiblenode
